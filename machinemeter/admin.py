@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Machine, Usage
 
-# Register your models here.
+admin.site.register(Machine)
+admin.site.register(Usage)

@@ -21,6 +21,9 @@ class Machine(models.Model):
         )
     )
 
+    def __str__(self):
+        return self.name
+
 class Usage(models.Model):
     maker = models.ForeignKey(Maker, on_delete=models.CASCADE)
     machine = models.ForeignKey(Machine, on_delete=models.PROTECT)
