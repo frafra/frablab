@@ -1,0 +1,58 @@
+- model: machinemeter.machine
+  fields:
+    name:  CAMM1-Servo GX-24
+    description: Vinyl Cutter
+    price_first: 5
+    price_after: 5
+    quantity: 10
+    unit: cm
+- model: machinemeter.machine
+  fields:
+    name: Roland Modela MDX-40A
+    price_first: 30
+    price_after: 15
+    quantity: 1
+    unit: hr
+- model: machinemeter.machine
+  fields:
+    name: Shopbot PRSalpha 96-60
+    price_first: 1
+    price_after: 1
+    quantity: 1
+    unit: min
+- model: machinemeter.machine
+  fields:
+    name: GCC SpiritGLS
+    price_first: 1
+    price_after: 1
+    quantity: 1
+    unit: min
+- model: machinemeter.machine
+  fields:
+    name: Kudo3D Titan1
+    description: experimental
+    price_first: 0
+    price_after: 0
+    quantity: 0
+    unit: l
+- model: machinemeter.machine
+  fields:
+    name: Ultimaker 2+
+    price_first: 14
+    price_after: 7
+    quantity: 1
+    unit: hr
+- model: machinemeter.machine
+  fields:
+    name: FABtotum Personal FAB
+    price_first: 14
+    price_after: 7
+    quantity: 1
+    unit: hr
+- model: machinemeter.machine
+  fields:
+    name: Wasp Project Delta 2040
+    price_first: 14
+    price_after: 7
+    quantity: 1
+    unit: hr
