@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'makers',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Custom user model
+# https://docs.djangoproject.com/en/2.1/topics/auth/customizing/#auth-custom-user
+
+AUTH_USER_MODEL = 'makers.Maker'
